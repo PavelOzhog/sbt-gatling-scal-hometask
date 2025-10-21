@@ -18,7 +18,7 @@ class BasicSimulation extends Simulation {
 
   // Define scenario
   // Reference: https://docs.gatling.io/reference/script/core/scenario/
-  private val scenario1 = scenario("Scenario 1")
+  private val scenario1 = scenario("Scenario 123")
     .exec(http("Session").get("/session"))
 
   // Define assertions
