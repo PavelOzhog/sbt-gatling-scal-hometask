@@ -15,11 +15,11 @@ libraryDependencies += "io.gatling"            % "gatling-test-framework"    % g
 
 val latestVersion = "2.11"
 
-libraryDependencies += "org.json4s" %% "json4s-native" % "4.0.7"
+//libraryDependencies += "org.json4s" %% "json4s-native" % "4.0.7"
+//
+//libraryDependencies += "org.json4s" %% "json4s-jackson" % "4.0.7"
 
-libraryDependencies += "org.json4s" %% "json4s-jackson" % "4.0.7"
-
-GatlingIt / javaOptions += "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
+//GatlingIt / javaOptions += "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
 
 // Enterprise Cloud (https://cloud.gatling.io/) configuration reference: https://docs.gatling.io/reference/integrations/build-tools/sbt-plugin/#running-your-simulations-on-gatling-enterprise-cloud
 

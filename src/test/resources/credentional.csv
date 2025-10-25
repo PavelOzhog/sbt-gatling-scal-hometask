@@ -1,2 +1,2 @@
-login,password
-PeteTong,qwert
+firstName,lastName,address1,address2,pass1,creditCard,expDate,login,password
+Pete,Tong,Privet Drive,Little Whinging,Pete Tong,12342134123412341234,11/30,PeteTong,qwert

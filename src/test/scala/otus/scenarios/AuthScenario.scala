@@ -12,5 +12,4 @@ object AuthScenario {
   class AuthScenario {
     val authScn: ScenarioBuilder = scenario("Имя сценария для репорта")
       .exec(authScn)
-      .exec()
 }
