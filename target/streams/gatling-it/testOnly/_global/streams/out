@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Dsbt.ipcsocket.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\ipcsocket, -Dswoval.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\swoval, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Pozhogin\AppData\Local\Temp\jna--1618535446\jna12486341270546935614.dll, -Djna.loaded=true, -Dscala.ext.dirs=C:\Users\Pozhogin\.sbt\1.0\java9-rt-ext-amazon_com_inc__17_0_14, -XX:+HeapDumpOnOutOfMemoryError, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -Xmx1G, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED, -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mNo tests to run for Gatling-it / testOnly[0m

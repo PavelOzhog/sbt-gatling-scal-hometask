@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\cities.csv,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\cities.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\credentional.csv,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\credentional.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\gatling.conf,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\gatling.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\logback-test.xml,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\logback-test.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\raw.json,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\raw.json)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\seatPref.csv,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\seatPref.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\resources\seatType.csv,C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\target\scala-2.13\test-classes\seatType.csv)[0m

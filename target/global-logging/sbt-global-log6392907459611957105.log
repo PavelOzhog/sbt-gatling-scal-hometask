@@ -1,0 +1,156 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Pozhogin/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 61463, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.11.6 (Amazon.com Inc. Java 17.0.14)
+[debug]       Load.loadUnit: plugins took 26.0811ms
+[debug]       Load.loadUnit: defsScala took 0.0052ms
+[debug] [Loading] Scanning directory C:\Users\Pozhogin\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Pozhogin\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.0932 ms
+[debug]           Load.resolveProject(global-plugins) took 1.1596ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Pozhogin\.sbt\1.0\plugins, plugins: List(<none>))) took 2.8189ms
+[debug] [Loading] Done in C:\Users\Pozhogin\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 3.8413ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.015ms
+[debug]     Load.loadUnit(file:/C:/Users/Pozhogin/.sbt/1.0/plugins/, ...) took 30.9784ms
+[debug]   Load.apply: load took 32.3955ms
+[debug]   Load.apply: resolveProjects took 0.0887ms
+[debug]   Load.apply: finalTransforms took 4.7805ms
+[debug]   Load.apply: config.delegates took 0.2195ms
+[debug]   Load.apply: Def.make(settings)... took 39.1763ms
+[debug]   Load.apply: structureIndex took 14.8793ms
+[debug]   Load.apply: mkStreams took 0.0018ms
+[info] loading global plugins from C:\Users\Pozhogin\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 288.7126ms
+[debug]           Load.loadUnit: plugins took 35.9667ms
+[debug]           Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\project
+[debug]             Load.loadUnit: mkEval took 0.5242ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.0954 ms
+[info] loading settings for project gatling-sbt-plugin-demo-build from plugins.sbt, idea.sbt...
+[debug]               Load.resolveProject(gatling-sbt-plugin-demo-build) took 1.7969ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id gatling-sbt-plugin-demo-build, base: C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\project, plugins: List(<none>))) took 3.2347ms
+[debug] [Loading] Done in C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\project, returning: (gatling-sbt-plugin-demo-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 42.2503ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.3446ms
+[debug]         Load.loadUnit(file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/project/, ...) took 86.6617ms
+[debug]       Load.apply: load took 88.6938ms
+[debug]       Load.apply: resolveProjects took 0.0881ms
+[debug]       Load.apply: finalTransforms took 4.8793ms
+[debug]       Load.apply: config.delegates took 0.2512ms
+[debug]       Load.apply: Def.make(settings)... took 33.266ms
+[debug]       Load.apply: structureIndex took 15.8194ms
+[debug]       Load.apply: mkStreams took 0.0023ms
+[info] loading project definition from C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 342.8874ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo
+[debug]       Load.loadUnit: mkEval took 0.5251ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(io.gatling.sbt.GatlingPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(io.gatling.sbt.GatlingPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,io.gatling.sbt.GatlingPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1468 ms
+[info] loading settings for project gatling-sbt-plugin-demo from build.sbt...
+[debug]         Load.resolveProject(gatling-sbt-plugin-demo) took 63.618ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id gatling-sbt-plugin-demo, base: C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo, plugins: List(<none>))) took 66.3107ms
+[debug] [Loading] Done in C:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo, returning: (gatling-sbt-plugin-demo)
+[debug]     Load.loadUnit: loadedProjectsRaw took 178.939ms
+[debug]     Load.loadUnit: cleanEvalClasses took 25.4499ms
+[debug]   Load.loadUnit(file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/, ...) took 548.1333ms
+[debug] Load.apply: load took 549.8655ms
+[debug] Load.apply: resolveProjects took 0.1045ms
+[debug] Load.apply: finalTransforms took 14.0511ms
+[debug] Load.apply: config.delegates took 0.3802ms
+[debug] Load.apply: Def.make(settings)... took 60.5159ms
+[debug] Load.apply: structureIndex took 17.1236ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to gatling-sbt-plugin-demo (in build file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to gatling-sbt-plugin-demo (in build file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/Pozhogin/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\Pozhogin\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 3 s, completed 22 окт. 2025 г., 00:21:07
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to gatling-sbt-plugin-demo (in build file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/)
+[debug] > Exec(set ideaPort in Global := 61463, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to gatling-sbt-plugin-demo (in build file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

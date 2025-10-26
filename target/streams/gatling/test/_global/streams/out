@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Dsbt.ipcsocket.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\ipcsocket, -Dswoval.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\swoval, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Pozhogin\AppData\Local\Temp\jna--1618535446\jna2920693142762220417.dll, -Djna.loaded=true, -Dscala.ext.dirs=C:\Users\Pozhogin\.sbt\1.0\java9-rt-ext-amazon_com_inc__17_0_14, -XX:+HeapDumpOnOutOfMemoryError, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -Xmx1G, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Dsbt.ipcsocket.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\ipcsocket, -Dswoval.tmpdir=C:\Users\Pozhogin\AppData\Local\Temp\.sbte3ff06a5\swoval, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Pozhogin\AppData\Local\Temp\jna--1618535446\jna2920693142762220417.dll, -Djna.loaded=true, -Dscala.ext.dirs=C:\Users\Pozhogin\.sbt\1.0\java9-rt-ext-amazon_com_inc__17_0_14, -XX:+HeapDumpOnOutOfMemoryError, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -Xmx1G, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(example.BasicSimulation, sbt.ForkMain$SubclassFingerscan@7c30a502, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation BasicSimulation successful.[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(otus.simulations.Debug, sbt.ForkMain$SubclassFingerscan@7c30a502, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation Debug successful.[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation(s) execution ended.[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example.BasicSimulation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	otus.simulations.Debug[0m

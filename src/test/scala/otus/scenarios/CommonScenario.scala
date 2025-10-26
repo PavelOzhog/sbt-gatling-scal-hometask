@@ -15,7 +15,7 @@ object CommonScenario {
 }
 
 class CommonScenario {
-  val scn: ScenarioBuilder = scenario("Debug scenario")
+  val scn: ScenarioBuilder = scenario("Common scenario")
     .feed(authFeeder)
     .feed(seatPref)
     .feed(seatType)

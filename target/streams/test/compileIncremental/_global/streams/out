@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 20 products, 13 sources, 7 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/otus/GatlingRunner.scala, ${BASE}/src/test/scala/otus/actions/Actions.scala, ${BASE}/src/test/scala/otus/feeders/Feeders.scala, ${BASE}/src/test/scala/otus/otus.scala, ${BASE}/src/test/scala/example/BasicSimulation.scala, ${BASE}/src/test/scala/otus/simulations/StabOpenModel.scala, ${BASE}/src/test/scala/otus/simulations/FMaxClosedModel.scala, ${BASE}/src/test/scala/otus/simulations/StabClosedModel.scala, ${BASE}/src/test/scala/otus/scenarios/CommonScenario.scala, ${BASE}/src/test/scala/otus/simulations/Debug.scala, ${BASE}/src/test/scala/otus/simulations/Auth.scala, ${BASE}/src/test/scala/otus/simulations/FMaxOpenModel.scala, ${BASE}/src/test/scala/otus/scenarios/AuthScenario.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

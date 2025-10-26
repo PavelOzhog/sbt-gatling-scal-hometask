@@ -1,0 +1,7 @@
+[debug] > Exec({file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/}gatling-sbt-plugin-demo/asString, None, None)
+[error] No such setting/task
+[error] {file:/C:/Users/Pozhogin/IdeaProjects/gatling-sbt-plugin-demo/}gatling-sbt-plugin-demo/asString
+[error]                                                                                                ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

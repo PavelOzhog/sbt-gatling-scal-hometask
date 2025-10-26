@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pozhogin\IdeaProjects\gatling-sbt-plugin-demo\src\test\scala\otus\simulations\StabClosedModel.scala:15:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : io.gatling.core.controller.inject.closed.ClosedInjectionStep[0m
+[0m[[0m[31merror[0m] [0m[0m required: io.gatling.core.structure.PopulationBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m      rampConcurrentUsers(10).to(0).during(5))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
