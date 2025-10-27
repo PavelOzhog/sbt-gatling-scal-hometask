@@ -1,18 +1,23 @@
 package otus.simulations
 
-import io.gatling.core.scenario.Simulation
-import io.gatling.http.Predef._
+
 import io.gatling.core.Predef._
 import otus.otus.httpProtocol
 import otus.scenarios.CommonScenario
+
+import scala.concurrent.duration.DurationInt
 
 class StabOpenModel extends Simulation{
 
   setUp(CommonScenario()
     .inject(
-      nothingFor(3),
-      rampUsers(1).during(5),
-      constantUsersPerSec(1).during(15).randomized)
-    .protocols(httpProtocol))
-    .maxDuration(3100)
+      rampConcurrentUsers(0).to(5).during(60),
+      constantConcurrentUsers(5).during(3600),
+      rampConcurrentUsers(5).to(0).during(30)))
+    .protocols(httpProtocol)
+    .maxDuration(7200)
+    .throttle(
+      reachRps(45).in(60.second),
+      holdFor(60.minutes))
+
 }
