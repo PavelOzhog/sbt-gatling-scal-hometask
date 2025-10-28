@@ -7,7 +7,7 @@ import otus.scenarios.CommonScenario
 
 import scala.concurrent.duration.DurationInt
 
-class StabOpenModel extends Simulation{
+class StabOpenModel extends Simulation {
 
   setUp(CommonScenario()
     .inject(
@@ -19,5 +19,10 @@ class StabOpenModel extends Simulation{
     .throttle(
       reachRps(45).in(60.second),
       holdFor(60.minutes))
+    .assertions(
+        global.failedRequests.percent.gt(90),
+        forAll.failedRequests.percent.lte(5),
+        global.responseTime.percentile(95).lt(1000),
+        forAll.responseTime.max.lt(2000))
 
 }
